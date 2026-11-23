@@ -1,0 +1,27 @@
+# Python & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large dataset folders & CSVs (adjust names to match your local HAM10000 files)
+HAM10000*/
+ham10000*/
+*.csv
+*.zip
+*.tar.gz
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
